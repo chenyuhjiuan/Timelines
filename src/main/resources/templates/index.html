@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--<html lang="en" xmlns:th="http://www.thymeleaf.org">-->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
 
@@ -9,25 +10,45 @@
     <title>Welcome</title>
 
 </head>
-<body>
+<body id="topdis">
+<div ></div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="/vegan">Vegan Scones</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/garlic">Garlic</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/rowgrid">Row Grid</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/columngrid">Column Grid</a>
+        </li>
+
+    </ul>
+</nav>
+<div class="h1background">
     <h1 class="demo">Welcome to Emily's Blog</h1>
-    <img class="images" th:src="@{/images/autumnsheep.jpg}" alt="Autumn Sheep" width=400 height=300/>
-
+<!--    <img class="images" th:src="@{/images/autumnsheep.jpg}" alt="Autumn Sheep" width=400 height=300/>-->
+    <img class="images" src="/images/autumnsheep.jpg" alt="Autumn Sheep" width=400 height=300/>
+</div>
 <!--    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="vegan">Vegan Scones</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/garlic">Garlic</a>
-            </li>
 
-        </ul>
-    </nav>
+<br/><br/>
+<img class="images" src="/images/vegan.jpg" alt="vegan" width=400 height=300/>
+<!--<div class="container">-->
+<!--    <div class="jumbotron">-->
+<!--        <h1>This month's projects</h1>-->
+<!--        <p>We launched two projects. The project of how to make vegan scones was instructed by Ms. Sue and the how to pant garlic was organized by Ms. Betty.</p>-->
+<!--    </div>-->
+<!--    <p>This is some text.</p>-->
+<!--    <p>This is another text.</p>-->
+<!--</div>-->
 
 <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

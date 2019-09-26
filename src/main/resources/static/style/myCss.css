@@ -1,5 +1,5 @@
 a{
-    font-size:50px;
+    font-size:40px;
     color: red;
 }
 
@@ -7,12 +7,44 @@ a{
     font-size: 100px;
 }
 
+.column2 {
+    font-size: 40px;
+}
+/*.h1background {
+    background-color:#ffeb99;
+}*/
+#veganpic{
+    color:red;
+}
+#onecolumn{
+    font-size: 26px;
+    color: red;
+}
+#onecolumnp{
+    font-size: 30px;
+    color:brown;
+}
+.container {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.jumbotron {
+    margin-left: 300px;
+    margin-top: 30px;
+}
 .images{
     margin-left: 300px;
     margin-top: 30px;
     height: 200px;
     width: 1100px;
 }
+#topdis{margin-top: 100px;}
+.ptext {
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
 h1{
     color:blue;
     font-family: 'Mansalva', cursive;
@@ -20,11 +52,16 @@ h1{
 }
 
 li{
-    margin-right: 150px;
+    margin-right: 50px;
 }
 
 nav {
     margin-left: 300px;
-    margin-right: 450px;
+    margin-right: 250px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+.Conmargin {
+    margin-left: 100px;
 }

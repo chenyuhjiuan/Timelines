@@ -11,25 +11,20 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping("/about")
-    //<a href="homepage"></a>
-    public String homePage(){
-        return "about";
-    }
     @RequestMapping("/vegan")
-    //<a href="homepage"></a>
     public String veganScone(){
         return "vegan";
     }
 
     @RequestMapping("/garlic")
-    //<a href="homepage"></a>
     public String plantGarlic(){
         return "garlic";
     }
-    @RequestMapping("/main")
-    //<a href="homepage"></a>
-    public String mainpage(){
-        return "Main";
-    }
+
+    @RequestMapping("/columngrid")
+    public String columnGrid(){return "columngrid";}
+
+    @RequestMapping("/rowgrid")
+    public String rowGrid(){ return "rowgrid";}
+
 }
